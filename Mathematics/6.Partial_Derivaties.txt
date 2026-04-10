@@ -1,0 +1,20 @@
+The previous example has only one variable i.e., "x" in the equation "6x^4 - 2x^3 - 12x^2 + x + 1"
+
+
+what if the equation is like f(x,y) = x^2 + y^2, then Graph is not going to be like "Parabola". In fact, it is going to be in 3D
+
+
+The above problem can be solved by "Partial Derivative"
+
+======================================================================================================================================================
+Partial Derivative assumes the One of the Variables as Constants, like as follows
+
+
+d(f(x,y)) / dx = d(x^2 + y^2) / dx = d(x^2 + c) / dx = 2x  (Assumed that "y" is constant)
+
+
+d(f(x,y)) / dy = d(x^2 + y^2) / dy = d(c + y^2) / dy = 2y  (Assumed that "x" is constant)
+
+
+======================================================================================================================================================
+

@@ -1,0 +1,42 @@
+1. Derivative of a Vertical Line
+
+2. Derivative of a Horizontal Line
+
+3. Differentiability for Various Functions
+
+4. Power rule of derivative
+
+
+=============================================================================================================================================
+Slope = Δy / Δx
+
+
+    For Horizontal Line,  Δy = 0   -->   Slope = Δy / Δx = 0 / Δx = 0
+    
+    For Vertical Line, Δx = 0   -->   Slope = Δy / 0= Infinity
+    
+    For Tangent Line, where certain part of the line is Straight, we can't find Slope
+    
+    For Disconnected Line, where certain part of the line, we don't have values of "y", we can't find Slope
+    
+    So, Function should be Continuous Function to get the Slope
+    
+    Also, Function can not take sudden change in direction ( Because, it will take Infinite number of Tangent lines at the break point. )
+    
+    
+=============================================================================================================================================
+Power rule of Derivative:::
+----------------------------
+
+
+derivative(x^n) = n * x^n-1
+
+    dy / dx = 2x^2 + 10 = 2 * 2 * x + 0 = 4x
+    
+    dy / dx = 4x^3 + 10 = 4*3*x^2 + 0 = 12x^2 
+    
+    dy / dx = ax^n = a * n * x^(n-1)
+    
+    y = f(x) = 2x^3 + 4x^2 -7x + 9   ==>   2*3*x^2 + 4 * 2 * x - 7  + 0
+
+=============================================================================================================================================

@@ -1,0 +1,33 @@
+What is Hypothesis Testing?
+
+What is Null Hypothesis?
+
+What is an alternate Hypothesis?
+
+================================================================================================================================================
+
+Q. What is Hypothesis?
+
+A. An idea or explanation of something that is based on a few known facts but that has not yet been proved to be a true or correct
+
+   Testing a claim that is supposed to change the current facts
+   
+   
+hypothesis ==> idea + with some facts
+
+================================================================================================================================================
+Null Vs Alternate Hypothesis:::
+-------------------------------
+
+Null Hypothesis (H0)         -->     There is no change from the stated facts
+
+Alternate  Hyp. (Ha)         -->     The stated facts are correct
+
+
+================================================================================================================================================
+
+wrong(facts) (null hypothesis)
+
+wrong(wrong(facts)) ==> right
+
+facts are right

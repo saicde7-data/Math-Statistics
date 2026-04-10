@@ -1,0 +1,99 @@
+Tossing a Coin (One Coin)
+------------------------------------------------------------------------------------------------------------------------
+Total No. of Possibilities = 2 (Head or Tail)
+Possibility of getting head = 1 ==> 1 / 2 = 0.5
+Possibility of getting Tail = 1 ==> Probability of getting Tail = 1 / 2 = 0.5
+
+P(H or T) = P(H) + P(T) = 0.5 + 0.5 = 1
+
+P(HH or HT) = P(HH) + P(HT) = 0.25 + 0.25 = 0.5
+
+------------------------------------------------------------------------------------------------------------------------
+Probability of getting Head = Possibility of that particular event / Total No. of Possibilities = 1 / 2 = 0.5
+Probability of getting Tail = 1 / 2 = 0.5
+=================================================================================================================================
+Tossing Two Coins (At a Time)
+------------------------------------------------------------------------------------------------------------------------
+
+Total no. of possibilities = 2 + 2 = 4 (HT, TH, TT, HH)
+Possibility of getting HH = 1 ==> P(HH) = Possibility of getting head / total no. of possible  = 1/4 = 0.25
+Possibility of getting TT = 1
+Possibility of getting HT = 1
+Possibility of getting TH = 1
+------------------------------------------------------------------------------------------------------------------------
+Probability of H & H
+Probability of getting HH = 1 / 4 = 0.25
+Probability of getting HT = 1 / 4 = 0.25
+Probability of getting TH = 1 / 4 = 0.25
+Probability of getting TT = 1 / 4 = 0.25
+=======================================================================================================================
+Probability of A & B = P(A) * P(B)
+Probability of A | B = P(A) + P(B)
+`
+========================================================================================================================
+Two Red Balls; Three Blue Balls; 1 Black Ball
+
+Total No. of Possibilities = 2 + 3 + 1 = 6 - 1 = 5 - 1 = 4 - 1 = 3 - 1 = 2 - 1 = 1
+Total no. of possibility of getting Red Balls = 2 - 1 = 1 - 1 = 0
+Total no. of possibility of getting Blue Balls = 3 - 1 = 2 - 1 = 1
+Total no. of possibility of getting Black Balls = 1 - 1 = 0
+
+Probability of getting Black Ball = 1/6 = 0.167
+Probability of getting  Blue Ball = 3/5 = 0.6
+Probability of getting Black Ball = 0/4 = 0
+Probability of getting Red Ball = 2/4 = 1/2 = 0.5
+Probability of getting Blue Ball = 2/3 = 0.67
+Probability of getting Red Ball = 1/2 = 0.5
+Probability of getting Red Ball= 0/1 = 0
+Probability of getting Blue Ball = 1/1 = 1s
+
+P(A)
+P(A/B) --> Conditional Probability
+
+P(Red Ball)
+P(Red Ball / Red Ball) =
+P(Blue Ball / 2 Red Balls)
+P(Blue Ball / 2 RB & 1 BB)
+P(Blue Ball / 2 RB & 2 BB)
+P(Black Ball / 2 RB & 3 BB)
+
+
+P(A / B) = P(A) knowing the fact that we have already taken P(B)
+
+============================================================================================
+2 Balls ==> Box (1 Red Ball; 1 Blue Ball) = 2 
+
+P(Red)  = 1 / 2 = 0.5
+P(Blue/Red) = 1 / 1 = 1
+
+P(B) = 1/2 = 0.5
+P(Red/Blue) = 1/1 = 1 (100%)
+
+P(red) * P(Blue/red) = P(Blue) * P(Red/blue)
+
+P(Blue&Red) = P(B) * P(Red/Blue)/P(red) = 0.5 *1 = 0.5
+
+P(Red&Blue)= P(Red) * P(Blue/Red) /P(Blue) = 0.5 * 1 = 0.5
+
+ P(Blue) * P(Red/Blue) = P(Red) * P(Blue/Red)
+
+P(Red) * P(Blue/Red) = P(Blue) * P(Red/Blue)
+
+P(Red & Blue) = P(Red)*P(Blue/Red) = 0.5 * 1 = 0.5
+============================================================================================
+P(Blue) = 1 / 2
+P(Red / Blue) = 1 / 1 = 1
+
+P(Blue & Red) = 0.5 * 1 = 0.5
+============================================================================================
+
+P(A&B) = P(B&A)
+
+P(A) = P(B) * P(A/B) / P(B/A)
+
+P(B/A) = P(B) * P(A/B) / P(A)
+P(A/B) = P(A) * P(B/A) / P(B)
+
+Naive Bayes Theorem
+
+============================================================================================

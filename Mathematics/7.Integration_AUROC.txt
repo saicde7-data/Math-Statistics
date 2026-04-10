@@ -1,0 +1,55 @@
+Integration:::
+--------------
+Area = ( Height * Base ) / 2
+
+     = ( (2 * π * r ) * r )/ 2
+     
+     = πr^2
+     
+What we did above is Integration of "Circumference of Triangle" with "Small Change in r i.e., Delta r (radius)"
+
+                ∫ 2πr dr
+======================================================================================================================================================
+Area of Square = a^2
+
+Area of Rectangle = a * b
+
+Area of Triangle = ( a * b ) / 2
+
+Area of Curve = ???
+
+======================================================================================================================================================
+Area of Curve:::
+----------------
+Lets consider,    y = Height of the Curve
+
+                  x1 = Start point of the Curve Area
+                  
+                  x2 = End point of the Curve Area
+                  
+                  So, Area of the Curve lies in between "x1" and "x2"
+                  
+                  
+                  If we consider, Curve dissected into small set of rectangles,
+                  
+                        Y = f(x)        (Height of the each Rectangle)
+                        
+                        ΔX              (Width of the each Rectangle)
+                        
+                        
+                        Area of each Dissection = Y * ΔX
+                        
+                                                = f(x) * ΔX
+                                                    
+                                                  n  
+                                                = Σ     f(xi) * ΔXi
+                                                  i=1
+                                                  
+                                                             n                                                  
+                                                = lim        Σ     f(xi) * ΔXi
+                                                  ΔX -> 0   i=1
+                                                  
+                                                  xn
+                                                = ∫   f(x) dx
+                                                  x1
+======================================================================================================================================================

@@ -1,0 +1,92 @@
+Slope between two points (x1,y1) and (x2,y2):::
+-----------------------------------------------
+
+Slope = Rate of Change = ΔY / ΔX = ( y2 - y1 ) / ( x2 - x1 )
+
+
+=============================================================================================================================================
+Slope at a particular point or Gradient:::
+------------------------------------------
+
+ΔY = ΔX = 0     (At a particular point, both ΔY and ΔX equal to "0")
+
+Slope = ΔY / ΔX  = 0 / 0 = ∞ or Undefined
+
+Question is, HOW TO FIND SLOPE NOW???
+
+The answer is we need to combine "Rate of Change" and "Limits"
+
+
+=============================================================================================================================================
+Slope Calculation at "One Point" with an Example:::
+---------------------------------------------------
+        
+        Y = f(x) = x^2 + 10
+        
+        ΔY = (y2 - y1);         ΔX = (x2 - x1)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+	x1 = x		 y1 = x^2 + 10
+
+	x2 = x + Δx; 		y2 = f(x2) = f(x + Δx) = (x+ Δx)^2 + 10 = x^2 + Δx^2 + 2 * x * Δx + 10
+
+
+x2 - x1 = (x + Δx) - x = Δx
+
+y2 - y1 = (x^2 + Δx^2 + 2 * x * Δx + 10) - (x^2 + 10) = x^2 + Δx^2 + 2 * x * Δx + 10 - x^2 - 10 = Δx^2 + 2 * x * Δx  = 
+
+Δx^2 + 2 * x * Δx  = Δx (Δx + 2x) = 0
+
+Δx = 0
+Δx + 2x = 0
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+        
+        x1 = x;                 y1 = x + Δx                 (As x1 is nothing but "x" distance from "0" i.e., center) (Wrong)
+        
+        Y2 = f(x2) = f( x + Δx )
+        
+                   = ( x + Δx )^2 + 10
+        
+                   = x^2 + Δx^2 + 2 * x * Δx + 10
+
+
+       ΔY = (y2 - y1) = ( x^2 + Δx^2 + 2 * x * Δx + 10 ) - (x^2 + 10)
+       
+                      = Δx^2 + 2 * x * Δx
+                      
+                      = Δx ( Δx + 2x )
+                      
+    
+    
+      Average Slope = ΔY / ΔX 
+      
+                    = Δx ( Δx + 2x ) / Δx
+                    
+                    = Δx + 2x                                             ( Δx is still an issue as slope at one point leads to Δx = 0 )
+                    
+                    Instead of looking for absolute value of Δx, we should assume that two points are reaching that will tends towards 0
+                    
+                    i.e., Δx -> 0
+                    
+            So, lim     ( 2x + Δx )
+                Δx -> 0
+                
+                dy / dx = lim     ( 2x + Δx )
+                          Δx -> 0
+                          
+                
+                dy / dx = 2x
+                
+                if x = 4,   slope = 8  ( As dy/dx = 2x )
+                
+                   x = -4,  slope = -8
+                   
+                   
+                   If the slope is +ve, we are travelling towards to Optimized value (or) Bottom of the Gradient or Curve
+                   
+                   If the slope is -ve, we are travelling away from Optimized value  (or) Bottom of the Gradient or Curve
+                   
+                   
+=============================================================================================================================================

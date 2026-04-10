@@ -1,0 +1,63 @@
+Point Estimate: A Single value which is used to serve as a "best guess" or "best estimate" of an unknown population parameter
+
+
+Simple Explanation: If we try to calculate BP for the whole population of India, which mayn't not possible. So, we take Sample and try to get average of the Sample. This Sample Mean mayn't be equal to Population Mean but, near to it. We are not going to be sure how much near it is going to be too.
+
+So, this Sample Mean is going to be called as "Point Estimate"
+
+
+                                    x̄ ~ μ
+                                    
+                                    
+The question is, How confident we are that Sample Mean is near to Population Mean
+
+The Sample Mean could be 1 Sigma, 2 Sigma or Negative Sigma too or very close to the Population Mean.
+
+That is why, we need to have a Range of values as an Estimate.
+
+This Range where we are confident that Sample Mean is near to Population Mean, we called it as "Confidence Interval"
+
+The aim is to find Population Mean within the given Confidence Interval. 
+
+So, understanding of "Sample Distribution" where we get "Sample Mean" is very important.
+
+
+==========================================================================================================================================
+Standard Error: The distance or the error of Sample Mean from Population Mean
+
+                The Standard Deviation of the Sampling Distribution of the Mean of the Samples
+                
+                
+                SE = Sigma (X Dash) = Sigma / Sq.Rt(n)
+
+==========================================================================================================================================
+
+    Confidence Interval = Point Estimate +/- Reliability Factor * Standard Error
+    
+    
+    Reliability Factor  -->     A Number based on the Sampling Distribution of the point estimate and the degree of confidence.
+    
+    
+    An interval with 90% confidence limit
+    
+    Confidence Interval = Point Estimate +/- Reliability Factor * Stadard Error
+    
+    CI = Point Estimate (Mean) +/- Reliability Factor * Standard Error
+       
+    Example:
+    
+        Mean = 84
+        
+        Reliability (Alpha) = 1 - Confidence Interval = 1 - (90 / 100) = 0.1 (0.05 + 0.05)
+        
+        As per Z-Score table, 0.05 --> -1.7 + 0.049471 = 1.64
+        
+        
+        Confidence Interval = 84 +/- 1.64 * 9/Sqrt(9)
+        
+                            = 84 +/- 1.64 * 3 = 84 +/- 4.92 = 79.08, 88.92
+                            
+                         CI = [79.08, 88.92]
+    
+=========================================================================================================================================
+

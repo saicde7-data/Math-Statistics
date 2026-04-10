@@ -1,0 +1,79 @@
+Loan_ID     Gender  Married     Dependents  Self_Employed   Income          LoanAmt     Term    CreditHistory   Property_Area   Status
+-------     ------  -------     ----------  -------------   -------         -------     ----    -------------   -------------   -------
+
+LP001002    Male       No.         0            No          $5,849.00                    60         1               Urban           Y
+
+LP001003    Male       Yes         1            No          $4,583.00        $128.00    120         1               Rural           N
+
+LP001005    Male       Yes         0            Yes         $3,000.00        $66.00      60         1               Urban           Y
+
+LP001006    Male       Yes         2            No          $2,583.00        $120.00     60         1               Urban           Y
+
+
+
+
+ 
+Qualitative
+    A. Nominal
+    
+           Ex:  Gender 
+                Married
+                Self employed 
+                Property Area 
+                Status
+
+    B. Ordinal
+    
+        Ex: Credit History 
+            
+
+Quantitative
+
+    A. Discrete
+            Ex: Term
+		Dependents
+    
+    B. Continuous
+            Ex: Income 
+                LoanAmt
+   
+ 
+======================================================================================================================================================== 
+Types of Variables:::
+---------------------
+    • Predictor / Independent 
+    
+        • Gender
+        • Married
+        • Dependents
+        • Self_Employed 
+        • Income
+        • LoanAmt
+        • Term
+        • CreditHistory 
+        • PropertyArea
+    
+    
+    • Target / Dependent 
+    
+        • Status
+        
+========================================================================================================================================================
+Data Types:::
+-------------
+• Character/String 
+    • Gender
+    • Married
+    • Self_Employed 
+    • Property_Area 
+    • Status
+
+• Numeric
+    • Dependents 
+    • Income
+    • LoanAmt
+    • Term
+    • Credit History
+
+
+========================================================================================================================================================

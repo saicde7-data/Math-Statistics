@@ -1,0 +1,42 @@
+Definition: When independent random variables are added, their properly normalized sum tends towards a normal distribution even if the original 
+
+            variables themselves are not normally distributed.
+
+
+Simple Explanation: 
+                    
+                    A. If we plot a distribution curve of each state People's salary, It may or mayn't be a Normal Distribution
+
+                    
+                    B. But, If we take Mean of People's salary of each state and plot a distribution curve of all the means of all the states, 
+
+                       It is going to be a Normal Distribution or Bell Curve or Gaussian Distribution
+                    
+                    
+                    C. The advantage of getting Normal Distribution is that we have lot of information about Normal Distribution like Z-Score, Area             
+                    
+                        Under Curve, Probability Density Distribution
+                        
+                    D. Sample Size of each sample should be equal
+
+     
+==========================================================================================================================================
+Importance of Sampling:::
+-------------------------
+
+    Inferences about the population using a small subset
+
+    Efficient in terms of time and money
+
+    Flexible to approximate many sums and integrals in Machine Learning
+    
+    Sum or Integral can be intractable / impossible or hard to define
+    
+
+
+==========================================================================================================================================
+    Mean of Sample  = Mean of Population
+    
+    S.D. of Sample = S.D. of Population / Sq.Rt(n)
+
+==========================================================================================================================================

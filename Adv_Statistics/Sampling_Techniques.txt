@@ -1,0 +1,93 @@
+Sampling Techniques
+
+    1. Simple Random Sampling
+    
+    2. Stratified Sampling
+    
+    3. Under Sampling
+    
+    4. Over Sampling
+
+
+========================================================================================================================================================
+Simple Random Sampling ( SRS ):::
+---------------------------------
+
+    A. Probability based
+    
+    B. Every record or item has an equal chance
+
+        Explanation: If we have 10 items, Probability of every item is " 1 / 10 "
+    
+    C. Done without replacement
+
+
+========================================================================================================================================================
+Stratified Sampling:::
+----------------------
+
+    A. Records are divided based on Characteristics or Strata ( or Groups )
+    
+    B. Records are chosen in equal proportions of " Strata "
+
+
+===================================================================================================================================================
+Population Vs Sample:::
+-----------------------
+
+
+Population                                          Sample
+-----------                                         --------
+
+μ                                                    x̄
+
+σ ( Standard Deviation )                             S
+
+σ² ( Variance )                                      s²
+
+
+Note: Population has "FACTS" or "PARAMETERS", whereas, Sample has "Approximations of Population" or "Statistics".
+
+
+===================================================================================================================================================
+Sampling bias is a bias in which a sample is collected in such a manner that some members of the intended population are less likely to be included than others.
+
+
+" Non-response bias " is something that out of the sample we take, those who don't respond to the survey are going to be called as " Non-response bias "
+
+
+
+
+
+Key Points for Sampling:::
+--------------------------
+    
+    1. Data Size Vs Data Quality
+        
+            A. Completness
+            
+            B. Validity
+            
+            C. Accuracy
+            
+            D. Availability
+            
+            E. Timeliness
+    
+    2. Sample is a representation of Population
+    
+    3. Types of Sampling Errors
+            
+            A. Population Specific Error
+            
+            B. Selection Error
+            
+            C. Non Response Error
+            
+            D. Sample Error
+            
+            E. Sample Frame Error
+            
+        
+===================================================================================================================================================
+

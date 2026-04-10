@@ -1,0 +1,55 @@
+If the Second Order Derivative < 0      ==>     Local Maxima
+
+        y = f(x) = -x^2 + 10 ==> d^2y / dx^2 = -2 (Local Maxima)
+
+If the Second Order Derivative > 0      ==>     Local Minima
+
+        y = f(x) = x^2 + 10 ==> d^2y / dx^2 = 2 (Local Minima)
+        
+        
+========================================================================================================================================================
+Step 1: Get the first Derivative
+
+Step 2: Get the Second Derivative
+
+Step 3: Identify points where slope is zero
+
+Step 4: Get the second derivative when slope is zero
+
+Step 5: Apply the rules for maxima and minima
+
+========================================================================================================================================================
+Example:::
+----------
+
+    y         =  6x^4 - 2x^3 - 12x^2 + x + 1
+    
+    dy/dx     =  24x^3 - 6x^2 - 24x + 1 + 0 =0        ==>     Optimal Values = -0.9054, 0.04131, 1.1141 (Three Values). But, system mayn't what is maxima & minima
+    
+    d^2y/dx^2 =  72x^2 - 12x - 24 + 0               ==>       We need to insert the above three values in the Second derivative
+    
+    
+    f(-0.9054) = 45.88 --> Local Minima1
+    
+    f(0.04131) = -24
+    
+    f(1.1141)  = 52 --> Local Minima2
+
+
+========================================================================================================================================================
+Rule for Maxima and Minima:
+
+    Second Derivative < 0   ==>     Local Maxima
+        
+    Second Derivative > 0   ==>     Local Minima
+
+========================================================================================================================================================
+As per the rules, we got 2 Minima
+
+    One at f(-0.9054) = 45.88
+    
+    Another at f(1.1141) = 52
+    
+Which one is the global Minima????          ==>     Highest value is the Global Minima i.e., 52. So, point at 1.1141 is the Global Minima
+
+========================================================================================================================================================

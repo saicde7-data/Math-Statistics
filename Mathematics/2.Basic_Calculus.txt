@@ -1,0 +1,86 @@
+What is Calculus?
+
+    A. Small Pebbles
+    
+    B. Used for counting in Abacus
+    
+    C. Continuous small change
+    
+    D. One of the most widely used in Machine Learning Optimization
+
+
+=============================================================================================================================================
+Area of the Circle = π * r^2
+
+Circumference of a Triangle = 2 * π * r    ( which is nothing but, Base of Triangle )
+
+Height of the Triangle = r
+
+Area of the Triangle = ( Height * Base ) / 2 = ( r * ( 2 * π * r ) ) / 2= (2 * π * r^2) / 2 = πr^2
+
+
+Which is nothing but Area of the Circle
+
+
+NOTE: It may be a surprise, Area of a Triangle and Circle is one and the same for the given "r" (radius for Circle and height for Triangle)
+      
+
+What we did above is Integration of "Circumference of Triangle" with "Small Change in r i.e., Delta r (radius)"
+
+                ∫ 2πr dr
+                
+    
+    
+=============================================================================================================================================
+Rate of Change:::
+-----------------
+
+Rate of Change = ΔY / ΔX = ( y2 - y1 ) / ( x2 - x1 )
+
+
+=============================================================================================================================================
+Limits:::
+---------
+Take an example, y = 1 / x
+
+When x increases, y decreases
+
+        X                Y
+    --------          ------
+    
+        1                1
+        10               0.1
+        100              0.01
+        1000             0.001
+        10000            0.0001
+
+When X increases, Y is approaching towards zero
+
+When X decreases, Y increases and approach towards Infinity
+
+
+        X                   Y
+    ---------           --------
+        1                   1                   ==>     lim         1/x = 1
+                                                        x->1
+                                                        
+        0.5                 2                   ==>     lim         1/x = 2
+                                                        x->0.5
+                                                        
+        0.01                100                 ==>     lim         1/x = 100
+                                                        x->0.01
+                                                        
+        0.001               1000                ==>     lim         1/x = 1000
+                                                        x->0.001
+                                                        
+        0.00001             100000              ==>     lim         1/x = 100000
+                                                        x->0.00001
+                                                        
+                                                        
+        Similary,
+            
+                lim     1/x = 0
+                x-> ∞
+        
+        
+=============================================================================================================================================

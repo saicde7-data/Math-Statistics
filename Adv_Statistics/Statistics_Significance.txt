@@ -1,0 +1,46 @@
+
+Significance Level
+
+Rejection Region
+
+P-value
+
+
+================================================================================================================================================
+
+Observed or seen probability of the sample (P) < Probability of Rejection Region (Alpha)  ==> Reject Hypothesis
+
+Significance Level (Alpha) = 5% or 0.05 (That is the usual one. It could be more or less)
+
+================================================================================================================================================
+Problem: Current average waiting period for the customers who call the customer service helpline is 100 seconds with a standard deviation of 20 seconds. Certain changes were recently done to the IVR menu options as well as the overall customer service processes. After a week, the managed picked up a sample of 100 calls and found that the average waiting period was 95 seconds. Have the process implementations resulted in the waiting period reduction?
+
+Solution:
+
+    H0 : NULL Hypothesis.    : There is no change in the waiting period
+    
+    Ha: Alternate Hypothesis : The waiting period has been reduced
+    
+    
+    Significance Level : Alpha = 0.05 or 5%
+    
+    State Population parameters and Sample Statistics
+    
+    Mu = 100; Sigma = 20; N = 100; X(bar) = 95
+    
+    Sample standard deviation = Sigma(x bar)    =  Sigma / Sqrt(n)
+                                             
+                                             =  20 / Sqrt(100) = 20 / 10 = 2
+                                             
+    Z-score = (Xbar - Mu) / Sigma(x bar).    = 95 - 100 / 2 = -5 / 2 = -2.50 (z-score table)
+    
+                                                                     = 0.00621 (As per Z-Score Table for -2.5)
+                                                                     
+                                                                P     = 0.62% < 5%
+                                                                
+                                                                
+P < Alpha ==> 0.62% < 5%    ==> So, P < Alpha ==> So, Reject NULL Hypothesis, which is "No Reduction in the Waiting Period"
+
+Hence, Accepted the theory that "There is some reduction in the waiting period"
+                                                
+================================================================================================================================================

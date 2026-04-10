@@ -1,0 +1,29 @@
+Central Tendency: Single value that attempts to describe the whole data using a central point or central location of the data.
+
+1. Mean (Quantitative continuous Data)
+
+2. Median (Quantitative continuous Data)
+
+3. Mode (Qualitative - Discrete, nominal, ordinal)
+
+Others: Geometric Mean, Harmonic Mean, Weighted Arithmetic Mean
+
+
+
+apple
+apple
+banana
+banana
+apple
+apple
+apple
+apple
+banana
+
+model = apple
+
+apple = 6
+
+banana = 3
+
+
